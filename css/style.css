@@ -1,0 +1,84 @@
+/* google fonts  */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+/* font-family: 'Poppins', sans-serif; */
+/* base styling */
+:root {
+  --clr-primary: #eebf63;
+  --clr-light-sky: #90c0e8;
+  --clr-light-green: #6fc2c5;
+
+  --clr-dark-yellow: #cd921e;
+  --clr-dark-blue: #486074;
+  --clr-dark-green: #386163;
+
+  --clr-black: #1c1c1c;
+  --clr-black-80: #2f2f2f;
+  --clr-black-60: #282828;
+
+  --clr-white: #ffffff;
+  --clr-white-80: #f1f1f1;
+  --clr-white-60: #e1e1e1;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  font-weight: normal;
+  line-height: 1.5;
+  background-color: var(--clr-black);
+  color: var(--clr-white-80);
+
+  position: relative;
+}
+
+h1,
+h2 {
+  line-height: 1.1;
+}
+
+a {
+  display: inline-block;
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  vertical-align: baseline;
+}
+
+/* public style  */
+.container {
+  width: 1280px;
+  max-width: 95%;
+  padding: 0 10px;
+  margin: 0 auto;
+}
+
+/* adding header style  */
+
+/* mobile navigation  */
+
+/* hero style  */
+
+/* performance section  */
+
+/* portfolio section style  */
+
+/* why hire me section style  */
+
+/* action section style */
+
+/* footer style  */
